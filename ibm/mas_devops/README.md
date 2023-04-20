@@ -6,6 +6,13 @@
 ## Change Log
 Note that links to pull requests prior to public release of the code (4.0) direct to IBM GitHub Enterprise, and will only be accessible to IBM employees.
 
+- `13.3` Multiple Updates:
+    - Update default DB2 version to s11.5.8.0 ([#770](https://github.com/ibm-mas/ansible-devops/pull/770))
+    - Update ocs role to use odf operator for OCP 4.11+ and provide devicePaths option ([#766](https://github.com/ibm-mas/ansible-devops/pull/766))
+    - Add support to rotate ibm entitlement keys across MAS namespaces ([#764](https://github.com/ibm-mas/ansible-devops/pull/764))
+- `13.2` Multiple Updates:
+    - Add support for Monitor deployment size ([#767](https://github.com/ibm-mas/ansible-devops/pull/767))
+    - Support April Catalog Update ([#762](https://github.com/ibm-mas/ansible-devops/pull/762))
 - `13.1` Support for Db2u and AMQ Streams on OCP 4.12 ([#759](https://github.com/ibm-mas/ansible-devops/pull/759))
 - `13.0` Multiple Updates:
     - Remove SBO support ([#755](https://github.com/ibm-mas/ansible-devops/pull/755))
